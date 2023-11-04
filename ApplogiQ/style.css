@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 20vh;
+}
+
+/* main {
+  width: 80%;
+  margin: auto;
+} */
+
+main > .one {
+  padding-left: 10em;
+  width: 100%;
+  height: calc(100vh - 20vh);
+  display: flex;
+  gap: 10em;
+}
+
+#article1 {
+  width: 40vw;
+  height: 80%;
+  /* background-color: red; */
+}
+
+figure {
+  width: 50vw;
+  height: 80%;
+  overflow: hidden;
+}
+
+main .one h5 {
+  padding-bottom: 0.5em;
+}
+
+main .one h2 {
+  padding-bottom: 0.5em;
+}
+
+main .one p {
+  padding-bottom: 1em;
+  font-size: clamp(5px ,2.5vw, 15px);
+  text-align: justify;
+}
+
+main .one button {
+    padding: 5px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+}
+
+.two,
+.three,
+.four {
+  height: 100vh;
+  display: flex;
+}

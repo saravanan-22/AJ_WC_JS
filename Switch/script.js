@@ -1,7 +1,8 @@
 let day = prompt("enter a day", "monday");
 switch (day) {
   case "sunday":
-    console.log("sunday");
+    alert("Happy sunday");
+    break;
   default:
     console.log("error");
 }
